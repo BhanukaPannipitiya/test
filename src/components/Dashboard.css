@@ -1,0 +1,87 @@
+/* Dashboard.css */
+.dashboard-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .add-employee {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-employee input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  .add-employee button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-employee button:hover {
+    background-color: #0056b3;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .employee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .employee-table input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+  }
+  
+  .employee-table button {
+    padding: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee-table button:hover {
+    background-color: #c82333;
+  }
+  .btn-update{
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
