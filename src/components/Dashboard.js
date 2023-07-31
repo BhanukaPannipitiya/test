@@ -54,15 +54,12 @@ const Dashboard = () => {
         return;
       }
 
-      // Use the employeeToUpdate object to update the form fields
       setNewEmployeeName(employeeToUpdate.name);
       setNewEmployeePosition(employeeToUpdate.position);
       setNewEmployeeEmail(employeeToUpdate.email);
       setNewEmployeePhone(employeeToUpdate.phone);
       setNewEmployeeAddress(employeeToUpdate.address);
 
-      // You may also show a modal or a separate form to handle the update
-      // For simplicity, I'm using the same form in this example.
     } catch (error) {
       console.log("Error updating employee:", error);
     }
@@ -78,7 +75,6 @@ const Dashboard = () => {
         address: newEmployeeAddress,
       });
       fetchEmployees();
-      // Clear the form fields after successful update
       setNewEmployeeName("");
       setNewEmployeePosition("");
       setNewEmployeeEmail("");

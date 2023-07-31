@@ -1,13 +1,13 @@
 // Login.js
 import React, { useState } from "react";
-import "./Login.css"; // Import the CSS file for styling
+import "./Login.css"; 
 
 const Login = ({ onLogin }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
-    // Hardcoded master user credentials
+    
     if (username === "root" && password === "1234") {
       onLogin();
     } else {
